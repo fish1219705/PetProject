@@ -1,7 +1,7 @@
 window.onload = function() {
 
-    /*The initial item number set to 3 */
-    var itemNo = 3;
+    /*The initial item number set to 1 */
+    var itemNo = 0;
   
     /* get the date of current day */
     var today = new Date();
@@ -156,11 +156,19 @@ window.onload = function() {
   
   
     /* clear button function */
+    const hardcodedDiv = document.getElementById('hardcoded');
     var clearbtn = document.getElementById("btn2");
     clearbtn.onclick = function() {
       location.reload();
-    }
+      // while (hardcodedDiv.firstChild) {
+      //     hardcodedDiv.removeChild(hardcodedDiv.firstChild);
+      //     itemNo = 1;
+      //   }
+      }
+    
   
   
     /* end window.onload function */
-  }
+    }
+  
+  

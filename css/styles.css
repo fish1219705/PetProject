@@ -72,6 +72,7 @@ body {
   .form {
     display: grid;
     gap: 5px;
+    margin-top: 2.5em;
   }
   
   footer p {
