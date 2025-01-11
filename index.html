@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Dish Dairy</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script async defer src="js/script.js"></script>
+  </head>
+
+<body>
+    <header class="header">
+        <h2>DISH DAIRY</h2>
+        <img src="images/Meal.png" alt="website icon">
+        <p>Your Personal Food Log</p>
+      </header>
+      <h1>Welcome!</h1>
+      <p class="btnfield">
+        <button class="button" id="btn1">Add Dish</button>
+        <button class="button" id="btn2">Clear All</button>
+        <button class="button" id="btn3">Remove Dish</button>
+      </p>
+      <div>
+        <h2 class="favourite"><em>Show My Favourite and Dislike:</em></h2>
+      </div>
+      <div class="hardcoded">
+        <div id="num">
+          <p>Item No.</p>
+          <p class="list">1</p>
+          <p class="list">2</p>
+          <p class="list">3</p>
+        </div>
+      
+        <div id="dish">
+          <p>Dish Name</p>
+          <p class="list">CoconutStickyRice MiniCake</p>
+          <p class="list">TaroUbe MiniCake</p>
+          <p class="list">Icy Taro Ball B</p>
+        </div>
+      
+        <div id="store">
+          <p>Store Name</p>
+          <p class="list">LA LA Bakeshop</p>
+          <p class="list">LA LA Bakeshop</p>
+          <p class="list">Meet Fresh</p>
+        </div>
+      
+        <div id="rate">
+          <p>Rating out of 5</p>
+          <p class="list">5</p>
+          <p class="list">5</p>
+          <p class="list">5</p>
+        </div>
+      
+        <div id="fb">
+          <p>Feedback</p>
+          <p class="list">so good</p>
+          <p class="list">awesome</p>
+          <p class="list">amazing</p>
+        </div>
+      
+        <div id="date">
+          <p>Date</p>
+          <p class="list">2024/10/18</p>
+          <p class="list">2024/11/01</p>
+          <p class="list">2024/12/02</p>
+        </div>
+      
+      </div>
+      <div class="inputform" id="formdiv">
+        <form class="form" id="form">
+          Dish Name:
+          <input type="text" id="dishname">
+          <span id="error1"></span> Store Name:
+          <input type="text" id="storename">
+          <span id="error2"></span> Rating Out Of 5:
+          <select name="rating" id="rating">
+            <option value="0">-- Choose your rating --</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <span id="error3"></span> Feedback:
+          <input type="text" id="feedback">
+          <span id="error4"></span>
+          <button type="submit" id="btnadd">Add</button>
+        </form>
+      </div>
+      <footer>
+        <p>Copyright &copy; 2024 All Right Reserved</p>
+      </footer>
+       
